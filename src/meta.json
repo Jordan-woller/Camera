@@ -103,7 +103,7 @@
             "figmaComponents": {},
             "description": null,
             "icon": null,
-            "projectName": "Assignment1_2",
+            "projectName": "Assignment2",
             "settings": {
                 "teamId": null,
                 "appName": "Camera",
@@ -137,7 +137,7 @@
                     "ios": {
                         "usageDescriptions": {
                             "NSCameraUsageDescription": "",
-                            "NSMicrophoneUsageDescription": ""
+                            "NSPhotoLibraryUsageDescription": ""
                         }
                     }
                 },
@@ -186,7 +186,7 @@
                     "ios": {
                         "usageDescriptions": {
                             "NSCameraUsageDescription": "",
-                            "NSMicrophoneUsageDescription": ""
+                            "NSPhotoLibraryUsageDescription": ""
                         }
                     }
                 },
@@ -214,7 +214,13 @@
             "totalCopy": "0",
             "totalStar": "0",
             "starAction": "star",
-            "variables": {},
+            "variables": {
+                "62fdaf1c-01e9-4ffa-8be8-b4dc085f8bb7": {
+                    "scope": "APP",
+                    "name": "voice",
+                    "screenId": "7ba8deb5-95c8-43df-bb5e-3ed5c0557489"
+                }
+            },
             "defaultDesignerDevice": "PHONE",
             "defaultDesignerOrientation": "PORTRAIT",
             "schemaVersion": 2,
