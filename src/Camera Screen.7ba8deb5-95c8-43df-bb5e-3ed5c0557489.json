@@ -58,6 +58,40 @@
     },
     "children": [
         {
+            "type": "Switch",
+            "translatedName": "Switch",
+            "reactType": "Switch",
+            "properties": {
+                "value": true,
+                "Visible": true,
+                "disabled": false,
+                "tintColor": "rgba(176, 176, 176, 100)",
+                "onTintColor": "rgba(208, 215, 231, 100)",
+                "thumbTintColor": "rgba(93, 122, 252, 100)",
+                "offThumbTintColor": "rgba(248, 249, 251, 100)",
+                "Height": 37.5,
+                "Width": 75,
+                "X": 151,
+                "Y": 259,
+                "RelativeX": 151,
+                "RelativeY": 259,
+                "ResizeMode": "STRETCH",
+                "ParentId": "7ba8deb5-95c8-43df-bb5e-3ed5c0557489",
+                "position": "absolute",
+                "edgeOffsets": 259,
+                "style": {
+                    "position": "absolute",
+                    "left": "35.06666666666667%",
+                    "top": "36.14598950524738%",
+                    "display": "flex"
+                }
+            },
+            "children": [],
+            "id": "e3e8d4e3-0eca-4981-b683-20e5cae6ec86",
+            "thunkableVersion": 443,
+            "name": "Confirmation"
+        },
+        {
             "type": "Label",
             "translatedName": "Label",
             "reactType": "Text",
@@ -466,13 +500,13 @@
             "translatedName": "Image",
             "properties": {
                 "resizeMode": "stretch",
-                "Height": 257,
-                "Width": 271,
-                "Visible": false,
-                "X": 52,
-                "Y": 10,
-                "RelativeX": 52,
-                "RelativeY": 10,
+                "Height": 218,
+                "Width": 223,
+                "Visible": true,
+                "X": 77,
+                "Y": 38,
+                "RelativeX": 77,
+                "RelativeY": 38,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -494,14 +528,14 @@
                     "position": "absolute",
                     "left": "15.6%",
                     "top": "6.006371814092954%",
-                    "display": "none",
+                    "display": "flex",
                     "backgroundColor": "rgba(0, 0, 0, 0)",
                     "borderColor": "rgba(0, 0, 0, 0)"
                 },
                 "capInsets": {},
                 "ParentId": "7ba8deb5-95c8-43df-bb5e-3ed5c0557489",
                 "position": "absolute",
-                "edgeOffsets": 10,
+                "edgeOffsets": 38,
                 "BackgroundColor": "rgba(0, 0, 0, 0)"
             },
             "children": [],
